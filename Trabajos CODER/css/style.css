@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(86, 184, 237);
+}
+
+header h1{
+    text-align: center;
+    color: white;
+}
+
+header img{
+        width: 40px;
+        padding: 3px;
+}
+
+header div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+nav ul {
+    background-color: cornflowerblue;
+    color: #494949;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    list-style: none;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+main div img{
+    width: 250px;
+}
+
+main article div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#article{
+    display: flex;
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid rgb(86, 184, 237)
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: cornflowerblue;
+}
+
+footer div iframe{
+    padding: 0 0 0 150px;
+}
+
+footer div p{
+    margin: auto;
+    display: inline-block;
+    width: 120px;
+}
+
+footer li{
+    list-style: none;
+}
+
+aside article{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    border: 1px solid black;
+}
+
+aside article img{
+    width: 20%;
+}
+
+.figure_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+ .aside_img{
+    display: flex;
+    justify-content: flex-end;
+ }
+
+aside article p{
+    display: inline-block;
+    width: 400px;
+}
+
+.form {
+    padding: 0 0 50px 26%;
+  }
+
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+  }
+
+  input,
+  label,
+  textarea {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 5px;
+  }
+
+  textarea::placeholder,
+  input::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .column {
+    float: left;
+    width: 33%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .button {
+    background-color: #33115b;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin: auto;
+    width: 100%;
+  }
+
+  .btn {
+    margin: auto;
+    width: 10%;
+    padding: 0 0 100px 0;
+  }
+
+  .button i {
+    font-size: 18px;
+    padding: 0 10px;
+    color: #ffffff;
+  }
+
+
