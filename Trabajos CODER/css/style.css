@@ -12,6 +12,8 @@ header h1{
     color: white;
 }
 
+
+
 header img{
         width: 40px;
         padding: 3px;
@@ -34,29 +36,25 @@ nav ul {
     padding: 10px;
     list-style: none;
 }
+.main-article{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main div img{
+  width: 250px;
+}
+
+.card-index{
+    display: flex;
+    justify-content: space-around;
+}
 
 .video{
     display: flex;
     justify-content: center;
     padding: 10px;
-}
-
-main div img{
-    width: 250px;
-}
-
-main article div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#article{
-    display: flex;
-    width: 300px;
-    margin: auto;
-    padding: 30px;
-    border: 1px solid rgb(86, 184, 237)
 }
 
 footer{
@@ -90,14 +88,6 @@ aside article{
 
 aside article img{
     width: 20%;
-}
-
-.figure_main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid black;
 }
  .aside_img{
     display: flex;
@@ -175,4 +165,111 @@ aside article p{
     color: #ffffff;
   }
 
+  .carousel-item{
+    width: auto;
+    padding: 20%;
+  }
 
+  .sombra-grow-img {
+    transform: translateZ(0);
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.sombra-grow-img:hover,
+.sombra-grow-img:focus,
+.sombra-grow-img:active {
+    transform: scale(1.1);
+}
+
+.sombra-grow {
+  transform: translateZ(0);
+  transition-duration: 0.5s;
+  transition-property: transform;
+}
+
+.figure-image-boton {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.novedades{
+  text-align: center;
+}
+.d-block{
+  position: relative;
+  right: -132%;
+}
+
+@media(max-width: 500px) {
+
+  header {
+      height: 150px;
+  }
+  
+  /*Adaptación del tamaño del logo para dispositivos móviles*/
+  
+  header div img {
+      width: 50px;
+      padding-left: 30px;
+      }
+  
+  main div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .d-block {
+    width: 40%;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .iframe{
+    width: 100%;
+  }
+
+  aside article img{
+    width: 200px;
+  }
+  .d-block{
+    position: relative;
+    left: -50px;
+  }
+
+  .img-carousel{
+    position: relative;
+    left: -10px;
+    width: 40%;
+  }
+
+  .img-card{
+    position: relative;
+    left: -19%;
+  }
+
+  .column{
+    position: relative;
+    left: -90px;
+  }
+
+  .coment{
+    position: relative;
+    left: -90px;
+  }
+
+  .btn{
+    position: relative;
+    right: -36%;
+  }
+
+  .button{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+  }
+  
+ }
