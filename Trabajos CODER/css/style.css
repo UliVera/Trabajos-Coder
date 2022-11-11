@@ -164,12 +164,13 @@ transition-property: transform;
   font-weight: bold;
   margin: auto;
   width: 100%;
+  top: 50%;
 }
 
 .btn {
   margin: auto;
-  width: 10%;
-  padding: 0 0 100px 0;
+  width: 50%;
+  padding: 0 0 100px 27% ;
 }
 
 .button i {
